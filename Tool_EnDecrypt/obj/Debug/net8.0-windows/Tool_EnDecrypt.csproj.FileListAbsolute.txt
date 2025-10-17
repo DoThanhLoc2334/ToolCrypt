@@ -1,0 +1,17 @@
+C:\Users\doloc\source\repos\Tool_EnDecrypt\Tool_EnDecrypt\bin\Debug\net8.0-windows\Tool_EnDecrypt.exe
+C:\Users\doloc\source\repos\Tool_EnDecrypt\Tool_EnDecrypt\bin\Debug\net8.0-windows\Tool_EnDecrypt.deps.json
+C:\Users\doloc\source\repos\Tool_EnDecrypt\Tool_EnDecrypt\bin\Debug\net8.0-windows\Tool_EnDecrypt.runtimeconfig.json
+C:\Users\doloc\source\repos\Tool_EnDecrypt\Tool_EnDecrypt\bin\Debug\net8.0-windows\Tool_EnDecrypt.dll
+C:\Users\doloc\source\repos\Tool_EnDecrypt\Tool_EnDecrypt\bin\Debug\net8.0-windows\Tool_EnDecrypt.pdb
+C:\Users\doloc\source\repos\Tool_EnDecrypt\Tool_EnDecrypt\obj\Debug\net8.0-windows\Tool_EnDecrypt.Form1.resources
+C:\Users\doloc\source\repos\Tool_EnDecrypt\Tool_EnDecrypt\obj\Debug\net8.0-windows\Tool_EnDecrypt.csproj.GenerateResource.cache
+C:\Users\doloc\source\repos\Tool_EnDecrypt\Tool_EnDecrypt\obj\Debug\net8.0-windows\Tool_EnDecrypt.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\doloc\source\repos\Tool_EnDecrypt\Tool_EnDecrypt\obj\Debug\net8.0-windows\Tool_EnDecrypt.AssemblyInfoInputs.cache
+C:\Users\doloc\source\repos\Tool_EnDecrypt\Tool_EnDecrypt\obj\Debug\net8.0-windows\Tool_EnDecrypt.AssemblyInfo.cs
+C:\Users\doloc\source\repos\Tool_EnDecrypt\Tool_EnDecrypt\obj\Debug\net8.0-windows\Tool_EnDecrypt.csproj.CoreCompileInputs.cache
+C:\Users\doloc\source\repos\Tool_EnDecrypt\Tool_EnDecrypt\obj\Debug\net8.0-windows\Tool_EnDecrypt.sourcelink.json
+C:\Users\doloc\source\repos\Tool_EnDecrypt\Tool_EnDecrypt\obj\Debug\net8.0-windows\Tool_EnDecrypt.dll
+C:\Users\doloc\source\repos\Tool_EnDecrypt\Tool_EnDecrypt\obj\Debug\net8.0-windows\refint\Tool_EnDecrypt.dll
+C:\Users\doloc\source\repos\Tool_EnDecrypt\Tool_EnDecrypt\obj\Debug\net8.0-windows\Tool_EnDecrypt.pdb
+C:\Users\doloc\source\repos\Tool_EnDecrypt\Tool_EnDecrypt\obj\Debug\net8.0-windows\Tool_EnDecrypt.genruntimeconfig.cache
+C:\Users\doloc\source\repos\Tool_EnDecrypt\Tool_EnDecrypt\obj\Debug\net8.0-windows\ref\Tool_EnDecrypt.dll
