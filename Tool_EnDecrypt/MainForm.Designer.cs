@@ -1,0 +1,209 @@
+﻿namespace Tool_EnDecrypt
+{
+    partial class MainForm
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            label1 = new Label();
+            label2 = new Label();
+            textBoxInput = new TextBox();
+            textBoxOutput = new TextBox();
+            radioButton1 = new RadioButton();
+            radioButton2 = new RadioButton();
+            buttonBrowseInput = new Button();
+            buttonBrowseOutput = new Button();
+            label3 = new Label();
+            radioButton3 = new RadioButton();
+            radioButton4 = new RadioButton();
+            buttonEncrypt = new Button();
+            buttonDecrypt = new Button();
+            SuspendLayout();
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(126, 113);
+            label1.Name = "label1";
+            label1.Size = new Size(70, 20);
+            label1.TabIndex = 0;
+            label1.Text = "Input File";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(126, 196);
+            label2.Name = "label2";
+            label2.Size = new Size(82, 20);
+            label2.TabIndex = 1;
+            label2.Text = "Output File";
+            // 
+            // textBoxInput
+            // 
+            textBoxInput.Location = new Point(126, 136);
+            textBoxInput.Name = "textBoxInput";
+            textBoxInput.Size = new Size(376, 27);
+            textBoxInput.TabIndex = 2;
+            // 
+            // textBoxOutput
+            // 
+            textBoxOutput.Location = new Point(126, 219);
+            textBoxOutput.Name = "textBoxOutput";
+            textBoxOutput.Size = new Size(376, 27);
+            textBoxOutput.TabIndex = 3;
+            // 
+            // radioButton1
+            // 
+            radioButton1.AutoSize = true;
+            radioButton1.Location = new Point(833, 132);
+            radioButton1.Name = "radioButton1";
+            radioButton1.Size = new Size(56, 24);
+            radioButton1.TabIndex = 4;
+            radioButton1.TabStop = true;
+            radioButton1.Text = "AES";
+            radioButton1.UseVisualStyleBackColor = true;
+            // 
+            // radioButton2
+            // 
+            radioButton2.AutoSize = true;
+            radioButton2.Location = new Point(833, 206);
+            radioButton2.Name = "radioButton2";
+            radioButton2.Size = new Size(57, 24);
+            radioButton2.TabIndex = 5;
+            radioButton2.TabStop = true;
+            radioButton2.Text = "DES";
+            radioButton2.UseVisualStyleBackColor = true;
+            // 
+            // buttonBrowseInput
+            // 
+            buttonBrowseInput.Location = new Point(498, 136);
+            buttonBrowseInput.Name = "buttonBrowseInput";
+            buttonBrowseInput.Size = new Size(94, 29);
+            buttonBrowseInput.TabIndex = 6;
+            buttonBrowseInput.Text = "Browse";
+            buttonBrowseInput.UseVisualStyleBackColor = true;
+            buttonBrowseInput.Click += buttonBrowseInput_Click;
+            // 
+            // buttonBrowseOutput
+            // 
+            buttonBrowseOutput.Location = new Point(498, 217);
+            buttonBrowseOutput.Name = "buttonBrowseOutput";
+            buttonBrowseOutput.Size = new Size(94, 29);
+            buttonBrowseOutput.TabIndex = 7;
+            buttonBrowseOutput.Text = "Browse";
+            buttonBrowseOutput.UseVisualStyleBackColor = true;
+            buttonBrowseOutput.Click += buttonBrowseOutput_Click;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(847, 93);
+            label3.Name = "label3";
+            label3.Size = new Size(76, 20);
+            label3.TabIndex = 8;
+            label3.Text = "Algorithm";
+            // 
+            // radioButton3
+            // 
+            radioButton3.AutoSize = true;
+            radioButton3.Location = new Point(833, 271);
+            radioButton3.Name = "radioButton3";
+            radioButton3.Size = new Size(65, 24);
+            radioButton3.TabIndex = 9;
+            radioButton3.TabStop = true;
+            radioButton3.Text = "3DES";
+            radioButton3.UseVisualStyleBackColor = true;
+            // 
+            // radioButton4
+            // 
+            radioButton4.AutoSize = true;
+            radioButton4.Location = new Point(833, 332);
+            radioButton4.Name = "radioButton4";
+            radioButton4.Size = new Size(57, 24);
+            radioButton4.TabIndex = 10;
+            radioButton4.TabStop = true;
+            radioButton4.Text = "RSA";
+            radioButton4.UseVisualStyleBackColor = true;
+            // 
+            // buttonEncrypt
+            // 
+            buttonEncrypt.Location = new Point(240, 388);
+            buttonEncrypt.Name = "buttonEncrypt";
+            buttonEncrypt.Size = new Size(94, 29);
+            buttonEncrypt.TabIndex = 11;
+            buttonEncrypt.Text = "Encrypt";
+            buttonEncrypt.UseVisualStyleBackColor = true;
+            // 
+            // buttonDecrypt
+            // 
+            buttonDecrypt.Location = new Point(566, 388);
+            buttonDecrypt.Name = "buttonDecrypt";
+            buttonDecrypt.Size = new Size(94, 29);
+            buttonDecrypt.TabIndex = 12;
+            buttonDecrypt.Text = "Decrypt";
+            buttonDecrypt.UseVisualStyleBackColor = true;
+            // 
+            // MainForm
+            // 
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(1357, 497);
+            Controls.Add(buttonDecrypt);
+            Controls.Add(buttonEncrypt);
+            Controls.Add(radioButton4);
+            Controls.Add(radioButton3);
+            Controls.Add(label3);
+            Controls.Add(buttonBrowseOutput);
+            Controls.Add(buttonBrowseInput);
+            Controls.Add(radioButton2);
+            Controls.Add(radioButton1);
+            Controls.Add(textBoxOutput);
+            Controls.Add(textBoxInput);
+            Controls.Add(label2);
+            Controls.Add(label1);
+            Name = "MainForm";
+            Text = "MainForm";
+            ResumeLayout(false);
+            PerformLayout();
+        }
+
+        #endregion
+
+        private Label label1;
+        private Label label2;
+        private TextBox textBoxInput;
+        private TextBox textBoxOutput;
+        private RadioButton radioButton1;
+        private RadioButton radioButton2;
+        private Button buttonBrowseInput;
+        private Button buttonBrowseOutput;
+        private Label label3;
+        private RadioButton radioButton3;
+        private RadioButton radioButton4;
+        private Button buttonEncrypt;
+        private Button buttonDecrypt;
+    }
+}

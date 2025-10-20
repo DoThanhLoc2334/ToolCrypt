@@ -20,7 +20,6 @@ C:\Users\hoang\OneDrive\Desktop\ToolCrypt\Tool_EnDecrypt\bin\Debug\net8.0-window
 C:\Users\hoang\OneDrive\Desktop\ToolCrypt\Tool_EnDecrypt\bin\Debug\net8.0-windows\Tool_EnDecrypt.runtimeconfig.json
 C:\Users\hoang\OneDrive\Desktop\ToolCrypt\Tool_EnDecrypt\bin\Debug\net8.0-windows\Tool_EnDecrypt.dll
 C:\Users\hoang\OneDrive\Desktop\ToolCrypt\Tool_EnDecrypt\bin\Debug\net8.0-windows\Tool_EnDecrypt.pdb
-C:\Users\hoang\OneDrive\Desktop\ToolCrypt\Tool_EnDecrypt\obj\Debug\net8.0-windows\Tool_EnDecrypt.Form1.resources
 C:\Users\hoang\OneDrive\Desktop\ToolCrypt\Tool_EnDecrypt\obj\Debug\net8.0-windows\Tool_EnDecrypt.csproj.GenerateResource.cache
 C:\Users\hoang\OneDrive\Desktop\ToolCrypt\Tool_EnDecrypt\obj\Debug\net8.0-windows\Tool_EnDecrypt.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\hoang\OneDrive\Desktop\ToolCrypt\Tool_EnDecrypt\obj\Debug\net8.0-windows\Tool_EnDecrypt.AssemblyInfoInputs.cache
@@ -33,3 +32,4 @@ C:\Users\hoang\OneDrive\Desktop\ToolCrypt\Tool_EnDecrypt\obj\Debug\net8.0-window
 C:\Users\hoang\OneDrive\Desktop\ToolCrypt\Tool_EnDecrypt\obj\Debug\net8.0-windows\Tool_EnDecrypt.genruntimeconfig.cache
 C:\Users\hoang\OneDrive\Desktop\ToolCrypt\Tool_EnDecrypt\obj\Debug\net8.0-windows\ref\Tool_EnDecrypt.dll
 C:\Users\hoang\OneDrive\Desktop\ToolCrypt\Tool_EnDecrypt\obj\Debug\net8.0-windows\Tool_EnDecrypt.RSAForm.resources
+C:\Users\hoang\OneDrive\Desktop\ToolCrypt\Tool_EnDecrypt\obj\Debug\net8.0-windows\Tool_EnDecrypt.MainForm.resources
