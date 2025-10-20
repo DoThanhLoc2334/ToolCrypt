@@ -44,8 +44,6 @@
             groupAES = new GroupBox();
             btnAESDecrypt = new Button();
             btnAESEncrypt = new Button();
-            txtAESIV = new TextBox();
-            label6 = new Label();
             label5 = new Label();
             txtAESKey = new TextBox();
             errorProvider1 = new ErrorProvider(components);
@@ -182,11 +180,9 @@
             groupAES.BackColor = SystemColors.AppWorkspace;
             groupAES.Controls.Add(btnAESDecrypt);
             groupAES.Controls.Add(btnAESEncrypt);
-            groupAES.Controls.Add(txtAESIV);
-            groupAES.Controls.Add(label6);
             groupAES.Controls.Add(label5);
             groupAES.Controls.Add(txtAESKey);
-            groupAES.Location = new Point(475, 105);
+            groupAES.Location = new Point(433, 54);
             groupAES.Name = "groupAES";
             groupAES.Size = new Size(548, 381);
             groupAES.TabIndex = 13;
@@ -196,7 +192,7 @@
             // 
             // btnAESDecrypt
             // 
-            btnAESDecrypt.Location = new Point(404, 321);
+            btnAESDecrypt.Location = new Point(346, 311);
             btnAESDecrypt.Name = "btnAESDecrypt";
             btnAESDecrypt.Size = new Size(94, 29);
             btnAESDecrypt.TabIndex = 5;
@@ -206,7 +202,7 @@
             // 
             // btnAESEncrypt
             // 
-            btnAESEncrypt.Location = new Point(181, 321);
+            btnAESEncrypt.Location = new Point(123, 311);
             btnAESEncrypt.Name = "btnAESEncrypt";
             btnAESEncrypt.Size = new Size(94, 29);
             btnAESEncrypt.TabIndex = 4;
@@ -214,26 +210,10 @@
             btnAESEncrypt.UseVisualStyleBackColor = true;
             btnAESEncrypt.Click += btnAESEncrypt_Click;
             // 
-            // txtAESIV
-            // 
-            txtAESIV.Location = new Point(181, 175);
-            txtAESIV.Name = "txtAESIV";
-            txtAESIV.Size = new Size(295, 27);
-            txtAESIV.TabIndex = 3;
-            // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.Location = new Point(66, 182);
-            label6.Name = "label6";
-            label6.Size = new Size(92, 20);
-            label6.TabIndex = 2;
-            label6.Text = "Initial Vector";
-            // 
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(107, 101);
+            label5.Location = new Point(107, 161);
             label5.Name = "label5";
             label5.Size = new Size(33, 20);
             label5.TabIndex = 1;
@@ -241,7 +221,7 @@
             // 
             // txtAESKey
             // 
-            txtAESKey.Location = new Point(181, 98);
+            txtAESKey.Location = new Point(181, 158);
             txtAESKey.Name = "txtAESKey";
             txtAESKey.Size = new Size(295, 27);
             txtAESKey.TabIndex = 0;
@@ -314,6 +294,7 @@
             Controls.Add(label1);
             Name = "Form1";
             Text = "MainForm";
+            Load += MainForm_Load;
             groupAES.ResumeLayout(false);
             groupAES.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)errorProvider1).EndInit();
@@ -339,8 +320,6 @@
         private Label label4;
         private Button btnBrowseOutput;
         private GroupBox groupAES;
-        private TextBox txtAESIV;
-        private Label label6;
         private Label label5;
         private TextBox txtAESKey;
         private Button btnAESDecrypt;

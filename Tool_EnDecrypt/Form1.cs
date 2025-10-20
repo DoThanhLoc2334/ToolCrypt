@@ -21,6 +21,7 @@ namespace Tool_EnDecrypt
             // Gán sự kiện cho 2 nút Encrypt / Decrypt
             btnAESEncrypt.Click += btnAESEncrypt_Click;
             btnAESDecrypt.Click += btnAESDecrypt_Click;
+
         }
 
         private void rbtnAES_CheckedChanged(object sender, EventArgs e)
@@ -65,50 +66,10 @@ namespace Tool_EnDecrypt
                 string inputPath = txtInputFile.Text;
                 string outputPath = txtOutputFile.Text;
                 string keyText = txtAESKey.Text.Trim();
-                string ivText = txtAESIV.Text.Trim();
 
-                if (string.IsNullOrEmpty(inputPath) || string.IsNullOrEmpty(outputPath))
-                {
-                    MessageBox.Show("⚠ Please select both input and output file paths!");
-                    return;
-                }
-
-                if (string.IsNullOrEmpty(keyText) || string.IsNullOrEmpty(ivText))
-                {
-                    MessageBox.Show("⚠ Please enter both Key and IV!");
-                    return;
-                }
-
-                byte[] key = Encoding.UTF8.GetBytes(keyText);
-                byte[] iv = Encoding.UTF8.GetBytes(ivText);
-
-                // Kiểm tra độ dài key và IV
-                if (key.Length != 16 && key.Length != 24 && key.Length != 32)
-                {
-                    MessageBox.Show("❌ AES key must be 16, 24, or 32 bytes!");
-                    return;
-                }
-
-                if (iv.Length != 16)
-                {
-                    MessageBox.Show("❌ AES IV must be 16 bytes!");
-                    return;
-                }
-
-                byte[] plainBytes = File.ReadAllBytes(inputPath);
-
-                using (Aes aes = Aes.Create())
-                {
-                    aes.Key = key;
-                    aes.IV = iv;
-                    aes.Padding = PaddingMode.PKCS7;
-
-                    using (FileStream fs = new FileStream(outputPath, FileMode.Create))
-                    using (CryptoStream cs = new CryptoStream(fs, aes.CreateEncryptor(), CryptoStreamMode.Write))
-                    {
-                        cs.Write(plainBytes, 0, plainBytes.Length);
-                    }
-                }
+                string plainText = File.ReadAllText(inputPath);
+                string encrypted = SimpleAES.Encrypt(plainText, keyText);
+                File.WriteAllText(outputPath, encrypted);
 
                 MessageBox.Show("✅ Encryption completed successfully!");
             }
@@ -118,6 +79,7 @@ namespace Tool_EnDecrypt
             }
         }
 
+
         // ==================== AES DECRYPT ====================
         private void btnAESDecrypt_Click(object sender, EventArgs e)
         {
@@ -126,49 +88,10 @@ namespace Tool_EnDecrypt
                 string inputPath = txtInputFile.Text;
                 string outputPath = txtOutputFile.Text;
                 string keyText = txtAESKey.Text.Trim();
-                string ivText = txtAESIV.Text.Trim();
 
-                if (string.IsNullOrEmpty(inputPath) || string.IsNullOrEmpty(outputPath))
-                {
-                    MessageBox.Show("⚠ Please select both input and output file paths!");
-                    return;
-                }
-
-                if (string.IsNullOrEmpty(keyText) || string.IsNullOrEmpty(ivText))
-                {
-                    MessageBox.Show("⚠ Please enter both Key and IV!");
-                    return;
-                }
-
-                byte[] key = Encoding.UTF8.GetBytes(keyText);
-                byte[] iv = Encoding.UTF8.GetBytes(ivText);
-
-                if (key.Length != 16 && key.Length != 24 && key.Length != 32)
-                {
-                    MessageBox.Show("❌ AES key must be 16, 24, or 32 bytes!");
-                    return;
-                }
-
-                if (iv.Length != 16)
-                {
-                    MessageBox.Show("❌ AES IV must be 16 bytes!");
-                    return;
-                }
-
-                byte[] cipherBytes = File.ReadAllBytes(inputPath);
-
-                using (Aes aes = Aes.Create())
-                {
-                    aes.Key = key;
-                    aes.IV = iv;
-                    aes.Padding = PaddingMode.PKCS7;
-
-                    using (FileStream fs = new FileStream(outputPath, FileMode.Create))
-                    using (CryptoStream cs = new CryptoStream(fs, aes.CreateDecryptor(), CryptoStreamMode.Write))
-                    {
-                        cs.Write(cipherBytes, 0, cipherBytes.Length);
-                    }
-                }
+                string cipherText = File.ReadAllText(inputPath);
+                string decrypted = SimpleAES.Decrypt(cipherText, keyText);
+                File.WriteAllText(outputPath, decrypted);
 
                 MessageBox.Show("✅ Decryption completed successfully!");
             }
@@ -177,5 +100,7 @@ namespace Tool_EnDecrypt
                 MessageBox.Show("Error during decryption: " + ex.Message);
             }
         }
+
+
     }
 }
