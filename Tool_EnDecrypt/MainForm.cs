@@ -24,7 +24,6 @@ namespace Tool_EnDecrypt
 
         private void buttonBrowseInput_Click(object sender, EventArgs e)
         {
-            // Hộp thoại chọn file input
             OpenFileDialog openFileDialog = new OpenFileDialog();
             openFileDialog.Title = "Chọn file đầu vào";
             openFileDialog.Filter = "Tất cả các file (*.*)|*.*";
@@ -37,7 +36,6 @@ namespace Tool_EnDecrypt
 
         private void buttonBrowseOutput_Click(object sender, EventArgs e)
         {
-            // Hộp thoại chọn vị trí lưu file output
             SaveFileDialog saveFileDialog = new SaveFileDialog();
             saveFileDialog.Title = "Chọn nơi lưu file đầu ra";
             saveFileDialog.Filter = "Tất cả các file (*.*)|*.*";

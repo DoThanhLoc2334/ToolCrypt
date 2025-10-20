@@ -3,32 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\doloc\\OneDrive\\Documents\\GitHub\\ToolCrypt\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{41DB6F0F-7F75-0042-F7AF-573AF845677A}|Tool_EnDecrypt.csproj|c:\\users\\doloc\\onedrive\\documents\\github\\toolcrypt\\tool_endecrypt\\des.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41DB6F0F-7F75-0042-F7AF-573AF845677A}|Tool_EnDecrypt.csproj|solutionrelative:tool_endecrypt\\des.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{41DB6F0F-7F75-0042-F7AF-573AF845677A}|Tool_EnDecrypt\\Tool_EnDecrypt.csproj|c:\\users\\doloc\\onedrive\\documents\\github\\toolcrypt\\tool_endecrypt\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41DB6F0F-7F75-0042-F7AF-573AF845677A}|Tool_EnDecrypt\\Tool_EnDecrypt.csproj|solutionrelative:tool_endecrypt\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41DB6F0F-7F75-0042-F7AF-573AF845677A}|Tool_EnDecrypt.csproj|c:\\users\\doloc\\onedrive\\documents\\github\\toolcrypt\\tool_endecrypt\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41DB6F0F-7F75-0042-F7AF-573AF845677A}|Tool_EnDecrypt.csproj|solutionrelative:tool_endecrypt\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{41DB6F0F-7F75-0042-F7AF-573AF845677A}|Tool_EnDecrypt\\Tool_EnDecrypt.csproj|c:\\users\\doloc\\onedrive\\documents\\github\\toolcrypt\\tool_endecrypt\\aesalgorithm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41DB6F0F-7F75-0042-F7AF-573AF845677A}|Tool_EnDecrypt\\Tool_EnDecrypt.csproj|solutionrelative:tool_endecrypt\\aesalgorithm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41DB6F0F-7F75-0042-F7AF-573AF845677A}|Tool_EnDecrypt.csproj|c:\\users\\doloc\\onedrive\\documents\\github\\toolcrypt\\tool_endecrypt\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41DB6F0F-7F75-0042-F7AF-573AF845677A}|Tool_EnDecrypt.csproj|solutionrelative:tool_endecrypt\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{41DB6F0F-7F75-0042-F7AF-573AF845677A}|Tool_EnDecrypt\\Tool_EnDecrypt.csproj|c:\\users\\doloc\\onedrive\\documents\\github\\toolcrypt\\tool_endecrypt\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{41DB6F0F-7F75-0042-F7AF-573AF845677A}|Tool_EnDecrypt\\Tool_EnDecrypt.csproj|solutionrelative:tool_endecrypt\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41DB6F0F-7F75-0042-F7AF-573AF845677A}|Tool_EnDecrypt.csproj|c:\\users\\doloc\\onedrive\\documents\\github\\toolcrypt\\tool_endecrypt\\aesalgorithm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41DB6F0F-7F75-0042-F7AF-573AF845677A}|Tool_EnDecrypt.csproj|solutionrelative:tool_endecrypt\\aesalgorithm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41DB6F0F-7F75-0042-F7AF-573AF845677A}|Tool_EnDecrypt.csproj|c:\\users\\doloc\\onedrive\\documents\\github\\toolcrypt\\tool_endecrypt\\simpleaes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41DB6F0F-7F75-0042-F7AF-573AF845677A}|Tool_EnDecrypt.csproj|solutionrelative:tool_endecrypt\\simpleaes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41DB6F0F-7F75-0042-F7AF-573AF845677A}|Tool_EnDecrypt.csproj|c:\\users\\doloc\\onedrive\\documents\\github\\toolcrypt\\tool_endecrypt\\prompt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41DB6F0F-7F75-0042-F7AF-573AF845677A}|Tool_EnDecrypt.csproj|solutionrelative:tool_endecrypt\\prompt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41DB6F0F-7F75-0042-F7AF-573AF845677A}|Tool_EnDecrypt.csproj|c:\\users\\doloc\\onedrive\\documents\\github\\toolcrypt\\tool_endecrypt\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{41DB6F0F-7F75-0042-F7AF-573AF845677A}|Tool_EnDecrypt.csproj|C:\\Users\\doloc\\OneDrive\\Documents\\GitHub\\ToolCrypt\\tool_endecrypt\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{41DB6F0F-7F75-0042-F7AF-573AF845677A}|Tool_EnDecrypt.csproj|solutionrelative:tool_endecrypt\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41DB6F0F-7F75-0042-F7AF-573AF845677A}|Tool_EnDecrypt\\Tool_EnDecrypt.csproj|c:\\users\\doloc\\onedrive\\documents\\github\\toolcrypt\\tool_endecrypt\\des.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41DB6F0F-7F75-0042-F7AF-573AF845677A}|Tool_EnDecrypt\\Tool_EnDecrypt.csproj|solutionrelative:tool_endecrypt\\des.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41DB6F0F-7F75-0042-F7AF-573AF845677A}|Tool_EnDecrypt\\Tool_EnDecrypt.csproj|c:\\users\\doloc\\onedrive\\documents\\github\\toolcrypt\\tool_endecrypt\\prompt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41DB6F0F-7F75-0042-F7AF-573AF845677A}|Tool_EnDecrypt\\Tool_EnDecrypt.csproj|solutionrelative:tool_endecrypt\\prompt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41DB6F0F-7F75-0042-F7AF-573AF845677A}|Tool_EnDecrypt\\Tool_EnDecrypt.csproj|c:\\users\\doloc\\onedrive\\documents\\github\\toolcrypt\\tool_endecrypt\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41DB6F0F-7F75-0042-F7AF-573AF845677A}|Tool_EnDecrypt\\Tool_EnDecrypt.csproj|solutionrelative:tool_endecrypt\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,13 +54,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\doloc\\OneDrive\\Documents\\GitHub\\ToolCrypt\\Tool_EnDecrypt\\MainForm.cs",
+              "RelativeDocumentMoniker": "Tool_EnDecrypt\\MainForm.cs",
+              "ToolTip": "C:\\Users\\doloc\\OneDrive\\Documents\\GitHub\\ToolCrypt\\Tool_EnDecrypt\\MainForm.cs [Design]",
+              "RelativeToolTip": "Tool_EnDecrypt\\MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T15:25:37.813Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "des.cs",
               "DocumentMoniker": "C:\\Users\\doloc\\OneDrive\\Documents\\GitHub\\ToolCrypt\\Tool_EnDecrypt\\des.cs",
               "RelativeDocumentMoniker": "Tool_EnDecrypt\\des.cs",
               "ToolTip": "C:\\Users\\doloc\\OneDrive\\Documents\\GitHub\\ToolCrypt\\Tool_EnDecrypt\\des.cs",
               "RelativeToolTip": "Tool_EnDecrypt\\des.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAswPYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAOYAAAAAAAAAAAAAAPYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-20T10:03:09.38Z",
               "EditorCaption": ""
@@ -75,51 +87,37 @@
               "RelativeToolTip": "Tool_EnDecrypt\\Prompt.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T09:37:10.642Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-20T09:37:10.642Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SimpleAES.cs",
-              "DocumentMoniker": "C:\\Users\\doloc\\OneDrive\\Documents\\GitHub\\ToolCrypt\\Tool_EnDecrypt\\SimpleAES.cs",
-              "RelativeDocumentMoniker": "Tool_EnDecrypt\\SimpleAES.cs",
-              "ToolTip": "C:\\Users\\doloc\\OneDrive\\Documents\\GitHub\\ToolCrypt\\Tool_EnDecrypt\\SimpleAES.cs",
-              "RelativeToolTip": "Tool_EnDecrypt\\SimpleAES.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAN8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T09:04:15.08Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "AESAlgorithm.cs",
               "DocumentMoniker": "C:\\Users\\doloc\\OneDrive\\Documents\\GitHub\\ToolCrypt\\Tool_EnDecrypt\\AESAlgorithm.cs",
               "RelativeDocumentMoniker": "Tool_EnDecrypt\\AESAlgorithm.cs",
               "ToolTip": "C:\\Users\\doloc\\OneDrive\\Documents\\GitHub\\ToolCrypt\\Tool_EnDecrypt\\AESAlgorithm.cs",
               "RelativeToolTip": "Tool_EnDecrypt\\AESAlgorithm.cs",
-              "ViewState": "AgIAABcBAAAAAAAAAAAqwBwBAAANAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAABwBAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-20T09:04:10.064Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainForm.cs",
               "DocumentMoniker": "C:\\Users\\doloc\\OneDrive\\Documents\\GitHub\\ToolCrypt\\Tool_EnDecrypt\\MainForm.cs",
               "RelativeDocumentMoniker": "Tool_EnDecrypt\\MainForm.cs",
               "ToolTip": "C:\\Users\\doloc\\OneDrive\\Documents\\GitHub\\ToolCrypt\\Tool_EnDecrypt\\MainForm.cs",
               "RelativeToolTip": "Tool_EnDecrypt\\MainForm.cs",
-              "ViewState": "AgIAAIsAAAAAAAAAAAAWwJMAAABnAAAAAAAAAA==",
+              "ViewState": "AgIAANcAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-20T09:00:28.154Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "MainForm.Designer.cs",
               "DocumentMoniker": "C:\\Users\\doloc\\OneDrive\\Documents\\GitHub\\ToolCrypt\\Tool_EnDecrypt\\MainForm.Designer.cs",
               "RelativeDocumentMoniker": "Tool_EnDecrypt\\MainForm.Designer.cs",
@@ -132,15 +130,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "MainForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\doloc\\OneDrive\\Documents\\GitHub\\ToolCrypt\\Tool_EnDecrypt\\MainForm.cs",
               "RelativeDocumentMoniker": "Tool_EnDecrypt\\MainForm.cs",
               "ToolTip": "C:\\Users\\doloc\\OneDrive\\Documents\\GitHub\\ToolCrypt\\Tool_EnDecrypt\\MainForm.cs [Design]",
               "RelativeToolTip": "Tool_EnDecrypt\\MainForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T08:53:14.671Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-10-20T08:53:14.671Z"
             }
           ]
         }
