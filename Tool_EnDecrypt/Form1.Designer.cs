@@ -350,5 +350,11 @@
         private Label label7;
         private Button button2;
         private Button button1;
+        // Khai báo control (đặt trong Form1.Designer.cs cùng các control khác)
+        private GroupBox group3DES;
+        private TextBox txt3DESKey;   // 16 hoặc 24 bytes (K1||K2||K3) – nếu 16 bytes => K1=K3
+        private TextBox txt3DESIV;    // 8 bytes
+        private Button btn3DESEncrypt, btn3DESDecrypt;
+
     }
 }

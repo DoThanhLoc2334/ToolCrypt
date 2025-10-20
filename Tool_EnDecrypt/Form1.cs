@@ -11,6 +11,21 @@ namespace Tool_EnDecrypt
         public Form1()
         {
             InitializeComponent();
+            Build3DESUI();
+
+            // Bật/tắt group theo RadioButton
+            rbtnAES.CheckedChanged += (s, e) => { groupAES.Visible = rbtnAES.Checked; group3DES.Visible = false; };
+            radioButton3.CheckedChanged += (s, e) => { group3DES.Visible = radioButton3.Checked; groupAES.Visible = false; };
+
+            // Mở Form RSA khi chọn radioButton4
+            radioButton4.CheckedChanged += (s, e) => {
+                if (radioButton4.Checked)
+                {
+                    using (var f = new RSAForm()) { f.ShowDialog(this); }
+                    radioButton4.Checked = false; // trở lại main form
+                }
+            };
+
 
             // Ẩn GroupBox AES ban đầu
             groupAES.Visible = false;
@@ -177,5 +192,66 @@ namespace Tool_EnDecrypt
                 MessageBox.Show("Error during decryption: " + ex.Message);
             }
         }
+        private void Build3DESUI()
+        {
+            group3DES = new GroupBox
+            {
+                Text = "Triple DES (EDE-CBC)",
+                Location = new Point(475, 105),
+                Size = new Size(548, 381),
+                Visible = false
+            };
+            var lblKey = new Label { Location = new Point(86, 100), Text = "Key (16/24 bytes)" };
+            txt3DESKey = new TextBox { Location = new Point(181, 98), Size = new Size(295, 27) };
+            var lblIV = new Label { Location = new Point(106, 175), Text = "IV (8 bytes)" };
+            txt3DESIV = new TextBox { Location = new Point(181, 173), Size = new Size(295, 27) };
+            btn3DESEncrypt = new Button { Location = new Point(181, 321), Size = new Size(94, 29), Text = "Encrypt" };
+            btn3DESDecrypt = new Button { Location = new Point(404, 321), Size = new Size(94, 29), Text = "Decrypt" };
+
+            btn3DESEncrypt.Click += btn3DESEncrypt_Click;
+            btn3DESDecrypt.Click += btn3DESDecrypt_Click;
+
+            group3DES.Controls.AddRange(new Control[] { lblKey, txt3DESKey, lblIV, txt3DESIV, btn3DESEncrypt, btn3DESDecrypt });
+            this.Controls.Add(group3DES);
+        }
+        private void btn3DESEncrypt_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (string.IsNullOrWhiteSpace(txtInputFile.Text) || string.IsNullOrWhiteSpace(txtOutputFile.Text))
+                { MessageBox.Show("Please select input/output file."); return; }
+
+                var key = Encoding.UTF8.GetBytes(txt3DESKey.Text.Trim());
+                var iv = Encoding.UTF8.GetBytes(txt3DESIV.Text.Trim());
+
+                if (!(key.Length == 16 || key.Length == 24)) { MessageBox.Show("3DES key must be 16 or 24 bytes."); return; }
+                if (iv.Length != 8) { MessageBox.Show("3DES IV must be 8 bytes."); return; }
+
+                TripleDESEngine.EncryptFile(txtInputFile.Text, txtOutputFile.Text, key, iv);
+                MessageBox.Show("✅ 3DES encryption done.");
+            }
+            catch (Exception ex) { MessageBox.Show("3DES Encrypt error: " + ex.Message); }
+        }
+
+        private void btn3DESDecrypt_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (string.IsNullOrWhiteSpace(txtInputFile.Text) || string.IsNullOrWhiteSpace(txtOutputFile.Text))
+                { MessageBox.Show("Please select input/output file."); return; }
+
+                var key = Encoding.UTF8.GetBytes(txt3DESKey.Text.Trim());
+                var iv = Encoding.UTF8.GetBytes(txt3DESIV.Text.Trim());
+
+                if (!(key.Length == 16 || key.Length == 24)) { MessageBox.Show("3DES key must be 16 or 24 bytes."); return; }
+                if (iv.Length != 8) { MessageBox.Show("3DES IV must be 8 bytes."); return; }
+
+                TripleDESEngine.DecryptFile(txtInputFile.Text, txtOutputFile.Text, key, iv);
+                MessageBox.Show("✅ 3DES decryption done.");
+            }
+            catch (Exception ex) { MessageBox.Show("3DES Decrypt error: " + ex.Message); }
+        }
+
+
     }
 }

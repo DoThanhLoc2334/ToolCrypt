@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\doloc\\source\\repos\\Tool_EnDecrypt\\Tool_EnDecrypt\\Tool_EnDecrypt.csproj": {}
+    "C:\\Users\\hoang\\OneDrive\\Desktop\\ToolCrypt\\Tool_EnDecrypt\\Tool_EnDecrypt.csproj": {}
   },
   "projects": {
-    "C:\\Users\\doloc\\source\\repos\\Tool_EnDecrypt\\Tool_EnDecrypt\\Tool_EnDecrypt.csproj": {
+    "C:\\Users\\hoang\\OneDrive\\Desktop\\ToolCrypt\\Tool_EnDecrypt\\Tool_EnDecrypt.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\doloc\\source\\repos\\Tool_EnDecrypt\\Tool_EnDecrypt\\Tool_EnDecrypt.csproj",
+        "projectUniqueName": "C:\\Users\\hoang\\OneDrive\\Desktop\\ToolCrypt\\Tool_EnDecrypt\\Tool_EnDecrypt.csproj",
         "projectName": "Tool_EnDecrypt",
-        "projectPath": "C:\\Users\\doloc\\source\\repos\\Tool_EnDecrypt\\Tool_EnDecrypt\\Tool_EnDecrypt.csproj",
-        "packagesPath": "C:\\Users\\doloc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\doloc\\source\\repos\\Tool_EnDecrypt\\Tool_EnDecrypt\\obj\\",
+        "projectPath": "C:\\Users\\hoang\\OneDrive\\Desktop\\ToolCrypt\\Tool_EnDecrypt\\Tool_EnDecrypt.csproj",
+        "packagesPath": "C:\\Users\\hoang\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hoang\\OneDrive\\Desktop\\ToolCrypt\\Tool_EnDecrypt\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\doloc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hoang\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -69,7 +69,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

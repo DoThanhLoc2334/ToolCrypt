@@ -1,18 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\doloc\\source\\repos\\Tool_EnDecrypt\\",
+  "WorkspaceRootPath": "C:\\Users\\hoang\\OneDrive\\Desktop\\ToolCrypt\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2186D182-8310-4EA5-9491-5FEA8A7DD07A}|Tool_EnDecrypt\\Tool_EnDecrypt.csproj|c:\\users\\doloc\\source\\repos\\tool_endecrypt\\tool_endecrypt\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2186D182-8310-4EA5-9491-5FEA8A7DD07A}|Tool_EnDecrypt\\Tool_EnDecrypt.csproj|solutionrelative:tool_endecrypt\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{2186D182-8310-4EA5-9491-5FEA8A7DD07A}|Tool_EnDecrypt\\Tool_EnDecrypt.csproj|c:\\users\\hoang\\onedrive\\desktop\\toolcrypt\\tool_endecrypt\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2186D182-8310-4EA5-9491-5FEA8A7DD07A}|Tool_EnDecrypt\\Tool_EnDecrypt.csproj|solutionrelative:tool_endecrypt\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2186D182-8310-4EA5-9491-5FEA8A7DD07A}|Tool_EnDecrypt\\Tool_EnDecrypt.csproj|c:\\users\\doloc\\source\\repos\\tool_endecrypt\\tool_endecrypt\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2186D182-8310-4EA5-9491-5FEA8A7DD07A}|Tool_EnDecrypt\\Tool_EnDecrypt.csproj|c:\\users\\hoang\\onedrive\\desktop\\toolcrypt\\tool_endecrypt\\rsaform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2186D182-8310-4EA5-9491-5FEA8A7DD07A}|Tool_EnDecrypt\\Tool_EnDecrypt.csproj|solutionrelative:tool_endecrypt\\rsaform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2186D182-8310-4EA5-9491-5FEA8A7DD07A}|Tool_EnDecrypt\\Tool_EnDecrypt.csproj|c:\\users\\hoang\\onedrive\\desktop\\toolcrypt\\tool_endecrypt\\rsaform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2186D182-8310-4EA5-9491-5FEA8A7DD07A}|Tool_EnDecrypt\\Tool_EnDecrypt.csproj|solutionrelative:tool_endecrypt\\rsaform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2186D182-8310-4EA5-9491-5FEA8A7DD07A}|Tool_EnDecrypt\\Tool_EnDecrypt.csproj|c:\\users\\hoang\\onedrive\\desktop\\toolcrypt\\tool_endecrypt\\tripledesengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2186D182-8310-4EA5-9491-5FEA8A7DD07A}|Tool_EnDecrypt\\Tool_EnDecrypt.csproj|solutionrelative:tool_endecrypt\\tripledesengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2186D182-8310-4EA5-9491-5FEA8A7DD07A}|Tool_EnDecrypt\\Tool_EnDecrypt.csproj|c:\\users\\hoang\\onedrive\\desktop\\toolcrypt\\tool_endecrypt\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2186D182-8310-4EA5-9491-5FEA8A7DD07A}|Tool_EnDecrypt\\Tool_EnDecrypt.csproj|solutionrelative:tool_endecrypt\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2186D182-8310-4EA5-9491-5FEA8A7DD07A}|Tool_EnDecrypt\\Tool_EnDecrypt.csproj|c:\\users\\doloc\\source\\repos\\tool_endecrypt\\tool_endecrypt\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2186D182-8310-4EA5-9491-5FEA8A7DD07A}|Tool_EnDecrypt\\Tool_EnDecrypt.csproj|solutionrelative:tool_endecrypt\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2186D182-8310-4EA5-9491-5FEA8A7DD07A}|Tool_EnDecrypt\\Tool_EnDecrypt.csproj|c:\\users\\hoang\\onedrive\\desktop\\toolcrypt\\tool_endecrypt\\simplersa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2186D182-8310-4EA5-9491-5FEA8A7DD07A}|Tool_EnDecrypt\\Tool_EnDecrypt.csproj|solutionrelative:tool_endecrypt\\simplersa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2186D182-8310-4EA5-9491-5FEA8A7DD07A}|Tool_EnDecrypt\\Tool_EnDecrypt.csproj|c:\\users\\hoang\\onedrive\\desktop\\toolcrypt\\tool_endecrypt\\cryptoutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2186D182-8310-4EA5-9491-5FEA8A7DD07A}|Tool_EnDecrypt\\Tool_EnDecrypt.csproj|solutionrelative:tool_endecrypt\\cryptoutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2186D182-8310-4EA5-9491-5FEA8A7DD07A}|Tool_EnDecrypt\\Tool_EnDecrypt.csproj|c:\\users\\hoang\\onedrive\\desktop\\toolcrypt\\tool_endecrypt\\rsaform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2186D182-8310-4EA5-9491-5FEA8A7DD07A}|Tool_EnDecrypt\\Tool_EnDecrypt.csproj|solutionrelative:tool_endecrypt\\rsaform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,8 +42,12 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
@@ -33,45 +57,111 @@
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\doloc\\source\\repos\\Tool_EnDecrypt\\Tool_EnDecrypt\\Form1.cs",
-              "RelativeDocumentMoniker": "Tool_EnDecrypt\\Form1.cs",
-              "ToolTip": "C:\\Users\\doloc\\source\\repos\\Tool_EnDecrypt\\Tool_EnDecrypt\\Form1.cs [Design]*",
-              "RelativeToolTip": "Tool_EnDecrypt\\Form1.cs [Design]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T08:14:27.901Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\doloc\\source\\repos\\Tool_EnDecrypt\\Tool_EnDecrypt\\Form1.Designer.cs",
-              "RelativeDocumentMoniker": "Tool_EnDecrypt\\Form1.Designer.cs",
-              "ToolTip": "C:\\Users\\doloc\\source\\repos\\Tool_EnDecrypt\\Tool_EnDecrypt\\Form1.Designer.cs*",
-              "RelativeToolTip": "Tool_EnDecrypt\\Form1.Designer.cs*",
-              "ViewState": "AgIAAOQAAAAAAAAAAAAYwPcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T02:48:44.345Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\doloc\\source\\repos\\Tool_EnDecrypt\\Tool_EnDecrypt\\Form1.cs",
-              "RelativeDocumentMoniker": "Tool_EnDecrypt\\Form1.cs",
-              "ToolTip": "C:\\Users\\doloc\\source\\repos\\Tool_EnDecrypt\\Tool_EnDecrypt\\Form1.cs",
-              "RelativeToolTip": "Tool_EnDecrypt\\Form1.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAAKAAAAARAAAAAAAAAA==",
+              "Title": "RSAForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\hoang\\OneDrive\\Desktop\\ToolCrypt\\Tool_EnDecrypt\\RSAForm.Designer.cs",
+              "RelativeDocumentMoniker": "Tool_EnDecrypt\\RSAForm.Designer.cs",
+              "ToolTip": "C:\\Users\\hoang\\OneDrive\\Desktop\\ToolCrypt\\Tool_EnDecrypt\\RSAForm.Designer.cs",
+              "RelativeToolTip": "Tool_EnDecrypt\\RSAForm.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T02:48:23.179Z"
+              "WhenOpened": "2025-10-20T15:54:48.316Z",
+              "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RSAForm.cs",
+              "DocumentMoniker": "C:\\Users\\hoang\\OneDrive\\Desktop\\ToolCrypt\\Tool_EnDecrypt\\RSAForm.cs",
+              "RelativeDocumentMoniker": "Tool_EnDecrypt\\RSAForm.cs",
+              "ToolTip": "C:\\Users\\hoang\\OneDrive\\Desktop\\ToolCrypt\\Tool_EnDecrypt\\RSAForm.cs",
+              "RelativeToolTip": "Tool_EnDecrypt\\RSAForm.cs",
+              "ViewState": "AgIAAMAAAAAAAAAAAAAswNYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T15:40:40.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\hoang\\OneDrive\\Desktop\\ToolCrypt\\Tool_EnDecrypt\\Form1.cs",
+              "RelativeDocumentMoniker": "Tool_EnDecrypt\\Form1.cs",
+              "ToolTip": "C:\\Users\\hoang\\OneDrive\\Desktop\\ToolCrypt\\Tool_EnDecrypt\\Form1.cs",
+              "RelativeToolTip": "Tool_EnDecrypt\\Form1.cs",
+              "ViewState": "AgIAAKkAAAAAAAAAAAAmwA0AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T02:48:23.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RSAForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\hoang\\OneDrive\\Desktop\\ToolCrypt\\Tool_EnDecrypt\\RSAForm.cs",
+              "RelativeDocumentMoniker": "Tool_EnDecrypt\\RSAForm.cs",
+              "ToolTip": "C:\\Users\\hoang\\OneDrive\\Desktop\\ToolCrypt\\Tool_EnDecrypt\\RSAForm.cs [Design]",
+              "RelativeToolTip": "Tool_EnDecrypt\\RSAForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T14:45:01.13Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SimpleRSA.cs",
+              "DocumentMoniker": "C:\\Users\\hoang\\OneDrive\\Desktop\\ToolCrypt\\Tool_EnDecrypt\\SimpleRSA.cs",
+              "RelativeDocumentMoniker": "Tool_EnDecrypt\\SimpleRSA.cs",
+              "ToolTip": "C:\\Users\\hoang\\OneDrive\\Desktop\\ToolCrypt\\Tool_EnDecrypt\\SimpleRSA.cs",
+              "RelativeToolTip": "Tool_EnDecrypt\\SimpleRSA.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAAAI0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T14:44:32.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TripleDESEngine.cs",
+              "DocumentMoniker": "C:\\Users\\hoang\\OneDrive\\Desktop\\ToolCrypt\\Tool_EnDecrypt\\TripleDESEngine.cs",
+              "RelativeDocumentMoniker": "Tool_EnDecrypt\\TripleDESEngine.cs",
+              "ToolTip": "C:\\Users\\hoang\\OneDrive\\Desktop\\ToolCrypt\\Tool_EnDecrypt\\TripleDESEngine.cs",
+              "RelativeToolTip": "Tool_EnDecrypt\\TripleDESEngine.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T14:44:18.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CryptoUtils.cs",
+              "DocumentMoniker": "C:\\Users\\hoang\\OneDrive\\Desktop\\ToolCrypt\\Tool_EnDecrypt\\CryptoUtils.cs",
+              "RelativeDocumentMoniker": "Tool_EnDecrypt\\CryptoUtils.cs",
+              "ToolTip": "C:\\Users\\hoang\\OneDrive\\Desktop\\ToolCrypt\\Tool_EnDecrypt\\CryptoUtils.cs",
+              "RelativeToolTip": "Tool_EnDecrypt\\CryptoUtils.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T14:43:55.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\hoang\\OneDrive\\Desktop\\ToolCrypt\\Tool_EnDecrypt\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Tool_EnDecrypt\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\hoang\\OneDrive\\Desktop\\ToolCrypt\\Tool_EnDecrypt\\Form1.Designer.cs",
+              "RelativeToolTip": "Tool_EnDecrypt\\Form1.Designer.cs",
+              "ViewState": "AgIAAE0BAAAAAAAAAAAYwGUBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T14:12:36.144Z",
+              "EditorCaption": ""
             }
           ]
         }
