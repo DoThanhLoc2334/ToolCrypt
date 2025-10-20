@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\doloc\\OneDrive\\Documents\\GitHub\\ToolCrypt\\Tool_EnDecrypt\\Tool_EnDecrypt.csproj",
+      "projectUniqueName": "C:\\Users\\doloc\\OneDrive\\Documents\\GitHub\\ToolCrypt\\Tool_EnDecrypt.csproj",
       "projectName": "Tool_EnDecrypt",
-      "projectPath": "C:\\Users\\doloc\\OneDrive\\Documents\\GitHub\\ToolCrypt\\Tool_EnDecrypt\\Tool_EnDecrypt.csproj",
+      "projectPath": "C:\\Users\\doloc\\OneDrive\\Documents\\GitHub\\ToolCrypt\\Tool_EnDecrypt.csproj",
       "packagesPath": "C:\\Users\\doloc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\doloc\\OneDrive\\Documents\\GitHub\\ToolCrypt\\Tool_EnDecrypt\\obj\\",
+      "outputPath": "C:\\Users\\doloc\\OneDrive\\Documents\\GitHub\\ToolCrypt\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
