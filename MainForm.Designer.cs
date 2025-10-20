@@ -28,12 +28,128 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "MainForm";
+            label1 = new Label();
+            label2 = new Label();
+            textBoxInput = new TextBox();
+            textBox2 = new TextBox();
+            radioButton1 = new RadioButton();
+            radioButton2 = new RadioButton();
+            button1 = new Button();
+            button2 = new Button();
+            label3 = new Label();
+            SuspendLayout();
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(126, 113);
+            label1.Name = "label1";
+            label1.Size = new Size(70, 20);
+            label1.TabIndex = 0;
+            label1.Text = "Input File";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(126, 196);
+            label2.Name = "label2";
+            label2.Size = new Size(82, 20);
+            label2.TabIndex = 1;
+            label2.Text = "Output File";
+            // 
+            // textBoxInput
+            // 
+            textBoxInput.Location = new Point(126, 136);
+            textBoxInput.Name = "textBoxInput";
+            textBoxInput.Size = new Size(286, 27);
+            textBoxInput.TabIndex = 2;
+            // 
+            // textBox2
+            // 
+            textBox2.Location = new Point(126, 219);
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(286, 27);
+            textBox2.TabIndex = 3;
+            // 
+            // radioButton1
+            // 
+            radioButton1.AutoSize = true;
+            radioButton1.Location = new Point(852, 175);
+            radioButton1.Name = "radioButton1";
+            radioButton1.Size = new Size(56, 24);
+            radioButton1.TabIndex = 4;
+            radioButton1.TabStop = true;
+            radioButton1.Text = "AES";
+            radioButton1.UseVisualStyleBackColor = true;
+            // 
+            // radioButton2
+            // 
+            radioButton2.AutoSize = true;
+            radioButton2.Location = new Point(852, 249);
+            radioButton2.Name = "radioButton2";
+            radioButton2.Size = new Size(57, 24);
+            radioButton2.TabIndex = 5;
+            radioButton2.TabStop = true;
+            radioButton2.Text = "DES";
+            radioButton2.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            button1.Location = new Point(408, 136);
+            button1.Name = "button1";
+            button1.Size = new Size(94, 29);
+            button1.TabIndex = 6;
+            button1.Text = "Browse";
+            button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            button2.Location = new Point(408, 217);
+            button2.Name = "button2";
+            button2.Size = new Size(94, 29);
+            button2.TabIndex = 7;
+            button2.Text = "Browse";
+            button2.UseVisualStyleBackColor = true;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(866, 136);
+            label3.Name = "label3";
+            label3.Size = new Size(76, 20);
+            label3.TabIndex = 8;
+            label3.Text = "Algorithm";
+            // 
+            // MainForm
+            // 
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(1357, 497);
+            Controls.Add(label3);
+            Controls.Add(button2);
+            Controls.Add(button1);
+            Controls.Add(radioButton2);
+            Controls.Add(radioButton1);
+            Controls.Add(textBox2);
+            Controls.Add(textBoxInput);
+            Controls.Add(label2);
+            Controls.Add(label1);
+            Name = "MainForm";
+            Text = "MainForm";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+
+        private Label label1;
+        private Label label2;
+        private TextBox textBoxInput;
+        private TextBox textBox2;
+        private RadioButton radioButton1;
+        private RadioButton radioButton2;
+        private Button button1;
+        private Button button2;
+        private Label label3;
     }
 }
