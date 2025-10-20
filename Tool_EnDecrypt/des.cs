@@ -245,5 +245,27 @@ namespace Tool_EnDecrypt
 
             return result.ToString().TrimEnd('\0');
         }
+
+        // Method để xử lý từng block 8-byte riêng biệt
+        public static byte[] ProcessBlockBytes(byte[] block, byte[] key, bool decrypt)
+        {
+            // Convert block to binary
+            string blockBinary = "";
+            foreach (byte b in block)
+                blockBinary += Convert.ToString(b, 2).PadLeft(8, '0');
+            
+            // Convert key to string
+            string keyStr = Encoding.ASCII.GetString(key);
+            
+            // Process block
+            string resultBinary = ProcessBlock(blockBinary, keyStr, decrypt);
+            
+            // Convert back to bytes
+            byte[] result = new byte[8];
+            for (int i = 0; i < 8; i++)
+                result[i] = Convert.ToByte(resultBinary.Substring(i * 8, 8), 2);
+            
+            return result;
+        }
     }
 }

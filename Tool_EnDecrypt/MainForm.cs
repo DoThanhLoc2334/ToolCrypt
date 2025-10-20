@@ -4,7 +4,6 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
-using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -69,14 +68,8 @@ namespace Tool_EnDecrypt
 
                 if (radioButton1.Checked) // === AES ===
                 {
-                    // derive 16-byte key
-                    byte[] key;
-                    using (SHA256 sha = SHA256.Create())
-                    {
-                        var hash = sha.ComputeHash(System.Text.Encoding.UTF8.GetBytes(password));
-                        key = new byte[16];
-                        Array.Copy(hash, 0, key, 0, 16);
-                    }
+                    // derive 16-byte key thủ công
+                    byte[] key = CryptoUtils.DeriveKey(password, 16);
 
                     // pad PKCS7 (block = 16)
                     int blockSize = 16;
@@ -88,9 +81,7 @@ namespace Tool_EnDecrypt
 
                     var aes = new AESAlgorithms(key);
 
-                    byte[] iv = new byte[16];
-                    using (var rng = RandomNumberGenerator.Create())
-                        rng.GetBytes(iv);
+                    byte[] iv = CryptoUtils.GenerateRandomBytes(16);
 
                     byte[] cipher = new byte[padded.Length + 16];
                     Array.Copy(iv, 0, cipher, 0, 16);
@@ -111,14 +102,8 @@ namespace Tool_EnDecrypt
                 }
                 else if (radioButton2.Checked) // === DES ===
                 {
-                    // derive 8-byte key
-                    byte[] key;
-                    using (SHA1 sha = SHA1.Create())
-                    {
-                        var hash = sha.ComputeHash(System.Text.Encoding.UTF8.GetBytes(password));
-                        key = new byte[8];
-                        Array.Copy(hash, 0, key, 0, 8);
-                    }
+                    // derive 8-byte key thủ công
+                    byte[] key = CryptoUtils.DeriveKey(password, 8);
 
                     // pad PKCS7 (block = 8)
                     int blockSize = 8;
@@ -128,9 +113,7 @@ namespace Tool_EnDecrypt
                     Array.Copy(fileData, padded, fileData.Length);
                     for (int i = fileData.Length; i < padded.Length; i++) padded[i] = (byte)padLen;
 
-                    byte[] iv = new byte[8];
-                    using (var rng = RandomNumberGenerator.Create())
-                        rng.GetBytes(iv);
+                    byte[] iv = CryptoUtils.GenerateRandomBytes(8);
 
                     byte[] cipher = new byte[padded.Length + 8];
                     Array.Copy(iv, 0, cipher, 0, 8);
@@ -142,18 +125,8 @@ namespace Tool_EnDecrypt
                         for (int i = 0; i < 8; i++)
                             block[i] = (byte)(padded[offset + i] ^ prev[i]);
 
-                        // Convert block to binary and encrypt
-                        string blockBinary = "";
-                        foreach (byte b in block)
-                            blockBinary += Convert.ToString(b, 2).PadLeft(8, '0');
-                        
-                        string keyStr = Encoding.ASCII.GetString(key);
-                        string encryptedBinary = des.ProcessBlock(blockBinary, keyStr, false);
-                        
-                        // Convert back to bytes
-                        byte[] cipherBlock = new byte[8];
-                        for (int i = 0; i < 8; i++)
-                            cipherBlock[i] = Convert.ToByte(encryptedBinary.Substring(i * 8, 8), 2);
+                        // Process block using DES
+                        byte[] cipherBlock = des.ProcessBlockBytes(block, key, false);
 
                         Array.Copy(cipherBlock, 0, cipher, 8 + offset, 8);
                         Array.Copy(cipherBlock, prev, 8);
@@ -197,13 +170,7 @@ namespace Tool_EnDecrypt
 
                 if (radioButton1.Checked) // === AES ===
                 {
-                    byte[] key;
-                    using (SHA256 sha = SHA256.Create())
-                    {
-                        var hash = sha.ComputeHash(System.Text.Encoding.UTF8.GetBytes(password));
-                        key = new byte[16];
-                        Array.Copy(hash, 0, key, 0, 16);
-                    }
+                    byte[] key = CryptoUtils.DeriveKey(password, 16);
 
                     if (cipherData.Length < 16) throw new Exception("File quá ngắn (thiếu IV).");
 
@@ -233,13 +200,7 @@ namespace Tool_EnDecrypt
                 }
                 else if (radioButton2.Checked) // === DES ===
                 {
-                    byte[] key;
-                    using (SHA1 sha = SHA1.Create())
-                    {
-                        var hash = sha.ComputeHash(System.Text.Encoding.UTF8.GetBytes(password));
-                        key = new byte[8];
-                        Array.Copy(hash, 0, key, 0, 8);
-                    }
+                    byte[] key = CryptoUtils.DeriveKey(password, 8);
 
                     if (cipherData.Length < 8) throw new Exception("File quá ngắn (thiếu IV).");
 
@@ -256,18 +217,8 @@ namespace Tool_EnDecrypt
                     {
                         Array.Copy(cipher, offset, block, 0, 8);
 
-                        // Convert block to binary and decrypt
-                        string blockBinary = "";
-                        foreach (byte b in block)
-                            blockBinary += Convert.ToString(b, 2).PadLeft(8, '0');
-                        
-                        string keyStr = Encoding.ASCII.GetString(key);
-                        string decryptedBinary = des.ProcessBlock(blockBinary, keyStr, true);
-                        
-                        // Convert back to bytes
-                        byte[] plainBlock = new byte[8];
-                        for (int i = 0; i < 8; i++)
-                            plainBlock[i] = Convert.ToByte(decryptedBinary.Substring(i * 8, 8), 2);
+                        // Process block using DES
+                        byte[] plainBlock = des.ProcessBlockBytes(block, key, true);
 
                         for (int i = 0; i < 8; i++)
                             plainPadded[offset + i] = (byte)(plainBlock[i] ^ prev[i]);
