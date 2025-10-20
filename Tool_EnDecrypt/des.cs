@@ -180,9 +180,10 @@ namespace Tool_EnDecrypt
         }
 
         // 🔹 Encrypt 1 block (64 bit)
-        private static string ProcessBlock(string block64, string key, bool decrypt)
+        public static string ProcessBlock(string block64, string key, bool decrypt)
         {
-            string keyBin = ToBinary(key).PadRight(64, '0');
+            // If key is already binary, use it directly; otherwise convert
+            string keyBin = key.Length == 64 ? key : ToBinary(key).PadRight(64, '0');
             string[] roundKeys = GenerateSubKeys(keyBin);
 
             if (decrypt)

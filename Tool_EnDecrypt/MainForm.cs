@@ -144,9 +144,18 @@ namespace Tool_EnDecrypt
                         for (int i = 0; i < 8; i++)
                             block[i] = (byte)(padded[offset + i] ^ prev[i]);
 
-                        string plainBlock = Encoding.ASCII.GetString(block);
-                        string cipherBlockStr = des.Encrypt(plainBlock, Encoding.ASCII.GetString(key));
-                        byte[] cipherBlock = Encoding.ASCII.GetBytes(cipherBlockStr);
+                        // Convert block to binary and encrypt
+                        string blockBinary = "";
+                        foreach (byte b in block)
+                            blockBinary += Convert.ToString(b, 2).PadLeft(8, '0');
+                        
+                        string keyStr = Encoding.ASCII.GetString(key);
+                        string encryptedBinary = des.ProcessBlock(blockBinary, keyStr, false);
+                        
+                        // Convert back to bytes
+                        byte[] cipherBlock = new byte[8];
+                        for (int i = 0; i < 8; i++)
+                            cipherBlock[i] = Convert.ToByte(encryptedBinary.Substring(i * 8, 8), 2);
 
                         Array.Copy(cipherBlock, 0, cipher, 8 + offset, 8);
                         Array.Copy(cipherBlock, prev, 8);
@@ -249,9 +258,18 @@ namespace Tool_EnDecrypt
                     {
                         Array.Copy(cipher, offset, block, 0, 8);
 
-                        string cipherBlockStr = Encoding.ASCII.GetString(block);
-                        string plainBlockStr = des.Decrypt(cipherBlockStr, Encoding.ASCII.GetString(key));
-                        byte[] plainBlock = Encoding.ASCII.GetBytes(plainBlockStr);
+                        // Convert block to binary and decrypt
+                        string blockBinary = "";
+                        foreach (byte b in block)
+                            blockBinary += Convert.ToString(b, 2).PadLeft(8, '0');
+                        
+                        string keyStr = Encoding.ASCII.GetString(key);
+                        string decryptedBinary = des.ProcessBlock(blockBinary, keyStr, true);
+                        
+                        // Convert back to bytes
+                        byte[] plainBlock = new byte[8];
+                        for (int i = 0; i < 8; i++)
+                            plainBlock[i] = Convert.ToByte(decryptedBinary.Substring(i * 8, 8), 2);
 
                         for (int i = 0; i < 8; i++)
                             plainPadded[offset + i] = (byte)(plainBlock[i] ^ prev[i]);
