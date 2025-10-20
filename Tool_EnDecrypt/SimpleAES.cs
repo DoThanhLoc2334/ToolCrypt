@@ -222,6 +222,7 @@ namespace Tool_EnDecrypt
             return output;
         }
 
+
         // ==================== PUBLIC INTERFACE ====================
         public static string Encrypt(string plainText, string key)
         {
@@ -240,5 +241,6 @@ namespace Tool_EnDecrypt
             byte[] decrypted = DecryptBlock(cipher, keyBytes);
             return Encoding.UTF8.GetString(decrypted).TrimEnd('\0');
         }
+
     }
 }

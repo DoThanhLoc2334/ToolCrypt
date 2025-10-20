@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36603.0 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tool_EnDecrypt", "Tool_EnDecrypt.csproj", "{41DB6F0F-7F75-0042-F7AF-573AF845677A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tool_EnDecrypt", "Tool_EnDecrypt\Tool_EnDecrypt.csproj", "{41DB6F0F-7F75-0042-F7AF-573AF845677A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,6 +20,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {2EC32805-540D-48AA-BC67-3FDCA034A4A2}
+		SolutionGuid = {76324153-733E-4783-9446-0435603C3E3F}
 	EndGlobalSection
 EndGlobal

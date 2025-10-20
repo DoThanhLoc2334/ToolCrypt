@@ -37,6 +37,10 @@
             buttonBrowseInput = new Button();
             buttonBrowseOutput = new Button();
             label3 = new Label();
+            radioButton3 = new RadioButton();
+            radioButton4 = new RadioButton();
+            buttonEncrypt = new Button();
+            buttonDecrypt = new Button();
             SuspendLayout();
             // 
             // label1
@@ -74,7 +78,7 @@
             // radioButton1
             // 
             radioButton1.AutoSize = true;
-            radioButton1.Location = new Point(852, 175);
+            radioButton1.Location = new Point(860, 131);
             radioButton1.Name = "radioButton1";
             radioButton1.Size = new Size(56, 24);
             radioButton1.TabIndex = 4;
@@ -85,7 +89,7 @@
             // radioButton2
             // 
             radioButton2.AutoSize = true;
-            radioButton2.Location = new Point(852, 249);
+            radioButton2.Location = new Point(860, 205);
             radioButton2.Name = "radioButton2";
             radioButton2.Size = new Size(57, 24);
             radioButton2.TabIndex = 5;
@@ -116,17 +120,61 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(866, 136);
+            label3.Location = new Point(874, 92);
             label3.Name = "label3";
             label3.Size = new Size(76, 20);
             label3.TabIndex = 8;
             label3.Text = "Algorithm";
+            // 
+            // radioButton3
+            // 
+            radioButton3.AutoSize = true;
+            radioButton3.Location = new Point(860, 270);
+            radioButton3.Name = "radioButton3";
+            radioButton3.Size = new Size(65, 24);
+            radioButton3.TabIndex = 9;
+            radioButton3.TabStop = true;
+            radioButton3.Text = "3DES";
+            radioButton3.UseVisualStyleBackColor = true;
+            // 
+            // radioButton4
+            // 
+            radioButton4.AutoSize = true;
+            radioButton4.Location = new Point(860, 331);
+            radioButton4.Name = "radioButton4";
+            radioButton4.Size = new Size(57, 24);
+            radioButton4.TabIndex = 10;
+            radioButton4.TabStop = true;
+            radioButton4.Text = "RSA";
+            radioButton4.UseVisualStyleBackColor = true;
+            // 
+            // buttonEncrypt
+            // 
+            buttonEncrypt.Location = new Point(240, 388);
+            buttonEncrypt.Name = "buttonEncrypt";
+            buttonEncrypt.Size = new Size(94, 29);
+            buttonEncrypt.TabIndex = 11;
+            buttonEncrypt.Text = "Encrypt";
+            buttonEncrypt.UseVisualStyleBackColor = true;
+            // 
+            // buttonDecrypt
+            // 
+            buttonDecrypt.Location = new Point(566, 388);
+            buttonDecrypt.Name = "buttonDecrypt";
+            buttonDecrypt.Size = new Size(94, 29);
+            buttonDecrypt.TabIndex = 12;
+            buttonDecrypt.Text = "Decrypt";
+            buttonDecrypt.UseVisualStyleBackColor = true;
             // 
             // MainForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1357, 497);
+            Controls.Add(buttonDecrypt);
+            Controls.Add(buttonEncrypt);
+            Controls.Add(radioButton4);
+            Controls.Add(radioButton3);
             Controls.Add(label3);
             Controls.Add(buttonBrowseOutput);
             Controls.Add(buttonBrowseInput);
@@ -153,5 +201,9 @@
         private Button buttonBrowseInput;
         private Button buttonBrowseOutput;
         private Label label3;
+        private RadioButton radioButton3;
+        private RadioButton radioButton4;
+        private Button buttonEncrypt;
+        private Button buttonDecrypt;
     }
 }
