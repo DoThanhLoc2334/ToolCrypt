@@ -3,7 +3,6 @@ using System.Text;
 
 namespace Tool_EnDecrypt
 {
-    // AES-128 manual implementation (ECB block encrypt/decrypt). We'll use it to build CBC externally.
     public class AESAlgorithms
     {
         // AES S-box
