@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Tool_EnDecrypt")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0a32debad5ccf23f1fe320afe6db3298016da70f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+23e9540287f2eaf91c5465bd6e57ffb632954bc0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Tool_EnDecrypt")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Tool_EnDecrypt")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
